@@ -1,0 +1,45 @@
+.headerSection {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "logo . . nav nav";
+    border-bottom: 2px solid black;
+    background-color: #232323;
+    position: fixed;
+    width: 100%;
+}
+.headerSection .logo {
+    grid-area: logo;
+}
+.headerSection .logo h1 {
+    font-family: 'Lato', sans-serif;
+    margin-left: 1em;
+    color: #ffffff;
+}
+.headerSection nav {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+}
+.headerSection ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.headerSection li {
+    display: inline;
+}
+.headerSection a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.headerSection a:hover {
+    color: #d8de20;
+}
+
+.highlightText {
+    color: #d8de20;
+}

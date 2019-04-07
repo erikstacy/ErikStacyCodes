@@ -7,22 +7,17 @@ class About extends Component {
             <div className="about">
                 <div className="aboutSection">
                     <div className="aboutBox">
-                        <div className="title">
-                            <h2>About</h2>
-                        </div>
-
-                        <div className="aboutContent">
-                            <p>
-                                Hey, my name is Erik Stacy. I'm currently
-                                pursuing a bachelor's in Computer Science
-                                at Northern Illinois University. My particular
-                                interest is in Android Development. I would
-                                bring value to your company because I'm
-                                passionate about what I do, I work hard to
-                                achieve my goals, and I have a knack for self
-                                learning.
-                            </p>
-                        </div>
+                        <h2>About</h2>
+                        <p>
+                            Hey, my name is Erik Stacy. I'm currently
+                            pursuing a bachelor's in Computer Science
+                            at Northern Illinois University. My particular
+                            interest is in Android Development. I would
+                            bring value to your company because I'm
+                            passionate about what I do, I work hard to
+                            achieve my goals, and I have a knack for self
+                            learning.
+                        </p>
                     </div>
                 </div>
 

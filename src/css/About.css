@@ -11,28 +11,26 @@
 }
 .aboutBox {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    display: grid;
     background: #232323;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 10px;
 }
-.aboutSection h2 {
-    text-align: left;
+.aboutBox h2 {
+    text-align: center;
     font-size: 40px;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.aboutContent {
-    text-align: left;
-}
-.aboutContent p {
+.aboutBox p {
     font-size: 20px;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 .contactSection {
     display: flex;
@@ -40,7 +38,7 @@
     align-items: center;
 }
 .contactBox {
-    width: 70%;
+    width: 50%;
     text-align: center;
     border-radius: 10px;
     background: #232323;

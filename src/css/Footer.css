@@ -1,0 +1,11 @@
+.footerSection {
+    background: #232323;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+.footerSection p {
+    color: #d8de20;
+}

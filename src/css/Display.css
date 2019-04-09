@@ -1,0 +1,27 @@
+.displaySection {
+    min-height: 80vh;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayContainer {
+    width: 960px;
+}
+.displaySection h1 {
+    color: #d8de20;
+    font-size: 60px;
+    margin: 0;
+}
+.displaySection .subheading {
+    color: #d8de20a6;
+    font-size: 55px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.displaySection .description {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    width: 600px;
+}

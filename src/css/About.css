@@ -3,7 +3,6 @@
     grid-template-columns: 2fr 1fr;
     min-height: 90vh;
     background: #d8de20;
-    padding-top: 80px;
 }
 .aboutSection {
     display: flex;

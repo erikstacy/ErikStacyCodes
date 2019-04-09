@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return(
             <div className="footerSection">
-                <p>Erik Stacy Codes, Copyright &copy; 2019</p>
+                <p>Designed and Built by Erik Stacy</p>
             </div>
         )
     }

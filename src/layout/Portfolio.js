@@ -6,44 +6,37 @@ import ESCIcon from '../img/erikstacycodes_icon.png';
 class Portfolio extends Component {
     render() {
         return(
-            <div className="portfolio">
-                <div className="title">
+            <div className="portfolioSection">
+                <div className="portfolioContainer">
                     <h2>Portfolio</h2>
-                    <a name="portfolio"></a>
-                </div>
 
-                <div className="portfolioContent">
-                    <div className="projectsContainer">
-                        <div className="project">
-                            <img src={OLIcon}/>
-                            <div className="projectBody">
-                                <h3>Organized Life</h3>
-                                <p>An app that offers a more organized
-                                    daily life. This app keeps track of
-                                    the notes, todos, and events of each
-                                    individual day. This makes it much
-                                    easier to remember everything you need
-                                    to do and everything you need to
-                                    remember. Creating this app changed my
-                                    life for the better. Ever since I started
-                                    using it, I've been more on task and
-                                    focused.
-                                </p>
-                            </div>
+                    <div className="project">
+                        <img src={OLIcon}/>
+                        <div className="projectBody">
+                            <h3>Organized Life</h3>
+                            <p>
+                                An app that offers a more organized
+                                daily life. It keeps track of
+                                the notes, todos, and events of each
+                                individual day. There's also a section
+                                to keep track of your events for the month,
+                                and a section for general notes.
+                            </p>
                         </div>
-                        <div className="project2">
-                            <div className="projectBody">
-                                <h3>Erik Stacy Codes</h3>
-                                <p>
-                                    My own personal website, and the one that
-                                    you're on now! I made this to show what
-                                    I can do as a web developer. I'ts a project
-                                    I plan to work on forever. The latest version
-                                    was made in March 2019.
-                                </p>
-                            </div>
-                            <img src={ESCIcon}/>
+                    </div>
+
+                    <div className="project2">
+                        <div className="projectBody">
+                            <h3>Erik Stacy Codes</h3>
+                            <p>
+                                My own personal website, and the one that
+                                you're on now! I made this to show what
+                                I can do as a web developer. I'ts a project
+                                I plan to improve forever. The latest version
+                                was made in April 2019.
+                            </p>
                         </div>
+                        <img src={ESCIcon}/>
                     </div>
                 </div>
             </div>

@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import '../css/About.css';
 import pictureofme from '../img/pictureofme.jpg';
+import Fade from 'react-reveal/Fade';
 
 class About extends Component {
     render() {
         return(
             <div className="aboutSection" name="About">
                 <div className="aboutContainer">
+                <Fade left duration="2000">
                     <img src={pictureofme} />
+                </Fade>
+                <Fade right duration="2000">
                     <div className="textSection">
                         <h2>About Me</h2>
                         <p>
@@ -25,6 +29,7 @@ class About extends Component {
                             and SQL.
                         </p>
                     </div>
+                </Fade>
                 </div>
             </div>
         )

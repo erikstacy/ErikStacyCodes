@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import '../css/Display.css';
+import Fade from 'react-reveal/Fade';
 
 class Display extends Component {
     render() {
         return(
             <div className="displaySection">
+            <Fade clear duration="2000">
                 <div className="displayContainer">
                     <h1>Erik Stacy</h1>
                     <p className="subheading">
@@ -17,6 +19,7 @@ class Display extends Component {
                         at Northern Illinois University.
                     </p>
                 </div>
+            </Fade>
             </div>
         )
     }

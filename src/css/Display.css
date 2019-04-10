@@ -28,3 +28,20 @@
     width: 600px;
     font-family: 'Lato', sans-serif;
 }
+
+
+
+
+
+
+
+/* appear on page load */
+
+.fade-appear {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 2000ms linear;
+}

@@ -1,0 +1,20 @@
+.contactSection {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #232323;
+}
+.contactContainer {
+    width: 960px;
+}
+.contactContainer h2 {
+    color: #d8de20;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+.contactContainer p {
+    color: #ffffff;
+    text-align: center;
+}

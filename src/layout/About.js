@@ -5,7 +5,7 @@ import pictureofme from '../img/pictureofme.jpg';
 class About extends Component {
     render() {
         return(
-            <div className="aboutSection">
+            <div className="aboutSection" name="About">
                 <div className="aboutContainer">
                     <img src={pictureofme} />
                     <div className="textSection">

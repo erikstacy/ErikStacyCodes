@@ -12,6 +12,9 @@
 .headerSection .logo {
     grid-area: logo;
 }
+.headerSection .logo:hover {
+    cursor: pointer;
+}
 .headerSection .logo h1 {
     font-family: 'Lato', sans-serif;
     margin-left: 1em;
@@ -30,7 +33,7 @@
 .headerSection li {
     display: inline;
 }
-.headerSection a {
+.headerSection Link {
     text-decoration: none;
     font-weight: bold;
     font-family: 'Lato', sans-serif;

@@ -6,7 +6,7 @@ import ESCIcon from '../img/erikstacycodes_icon.png';
 class Portfolio extends Component {
     render() {
         return(
-            <div className="portfolioSection">
+            <div className="portfolioSection" name="Portfolio">
                 <div className="portfolioContainer">
                     <h2>Portfolio</h2>
 

@@ -4,6 +4,7 @@ import About from './layout/About';
 import Portfolio from './layout/Portfolio';
 import Footer from './layout/Footer';
 import Display from './layout/Display';
+import Contact from './layout/Contact';
 import './css/App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <Display />
         <About />
         <Portfolio />
+        <Contact />
         <Footer />
       </div>
     );

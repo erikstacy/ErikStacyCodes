@@ -1,41 +1,32 @@
 import React, { Component } from 'react';
 import '../css/About.css';
+import pictureofme from '../img/pictureofme.jpg';
 
 class About extends Component {
     render() {
         return(
-            <div className="about">
-                <div className="aboutSection">
-                    <div className="aboutBox">
-                        <h2>About</h2>
+            <div className="aboutSection" name="About">
+                <div className="aboutContainer">
+                    <img src={pictureofme} />
+                    <div className="textSection">
+                        <h2>About Me</h2>
                         <p>
-                            Hey, my name is Erik Stacy. I'm currently
-                            pursuing a bachelor's in Computer Science
-                            at Northern Illinois University. My particular
-                            interest is in Android Development. I would
-                            bring value to your company because I'm
-                            passionate about what I do, I work hard to
-                            achieve my goals, and I have a knack for self
-                            learning.
+                            Hey! My name is Erik, I'm currently
+                            pursuing a bachelor's degree in Computer
+                            Science with an emphasis in Software
+                            Development. I spend a lot of my free time
+                            building website and apps because it is
+                            something that I'm passionate about. I'm
+                            creative by nature and passionate at my core.
+                            <br></br>
+                            <br></br>
+                            The languages I've learned so far are
+                            HTML/CSS, Javascript, React, XML/Java, C++,
+                            and SQL.
                         </p>
                     </div>
                 </div>
-
-                <div className="contactSection">
-                    <div className="contactBox">
-                        <div className="title">
-                            <h2>Contact</h2>
-                        </div>
-
-                        <div className="contactContent">
-                            <p><span className="highlightText">Name: </span>Erik Stacy</p>
-                            <p><span className="highlightText">Number: </span>847-533-320</p>
-                            <p><span className="highlightText">Email: </span>erikstacy95@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-
         )
     }
 }

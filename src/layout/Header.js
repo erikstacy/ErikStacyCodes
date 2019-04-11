@@ -12,7 +12,9 @@ class Header extends Component {
         return(
             <div className="headerSection">
                 <div className="logo" onClick={this.scrollToTop}>
-                    <h1><span className="highlightText">Erik Stacy</span> Codes</h1>
+                    <h1><span 
+                        className="highlightText"
+                        >Erik Stacy</span> Codes</h1>
                 </div>
 
                 <nav>
@@ -23,7 +25,7 @@ class Header extends Component {
                                 to="About"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-50}
                                 duration={500}
                             >
                                 About
@@ -35,7 +37,7 @@ class Header extends Component {
                                 to="Portfolio"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-20}
                                 duration={500}
                             >
                                 Portfolio

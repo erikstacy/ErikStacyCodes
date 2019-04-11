@@ -18,3 +18,8 @@
     color: #ffffff;
     text-align: center;
 }
+.contactContainer .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

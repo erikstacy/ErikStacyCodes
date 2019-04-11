@@ -26,7 +26,8 @@ class Contact extends Component {
                             <FontAwesomeIcon
                                 icon={faGithub}
                                 size="2x"
-                                style={{ color: '#d8de20',
+                                style={{
+                                        color: '#d8de20',
                                         marginRight: '20px'
                                     }}
                                 />
@@ -35,7 +36,8 @@ class Contact extends Component {
                             <FontAwesomeIcon
                                 icon={faLinkedinIn}
                                 size="2x"
-                                style={{ color: '#d8de20',
+                                style={{
+                                        color: '#d8de20',
                                         marginRight: '20px'
                                     }}
                                 />
@@ -44,7 +46,8 @@ class Contact extends Component {
                             <FontAwesomeIcon
                                 icon={faInstagram}
                                 size="2x"
-                                style={{ color: '#d8de20',
+                                style={{
+                                        color: '#d8de20',
                                         marginRight: '20px'
                                     }}
                                 />
@@ -53,7 +56,8 @@ class Contact extends Component {
                             <FontAwesomeIcon
                                 icon={faTwitter}
                                 size="2x"
-                                style={{ color: '#d8de20',
+                                style={{
+                                        color: '#d8de20',
                                     }}
                                 />
                         </a>

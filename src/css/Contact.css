@@ -17,4 +17,18 @@
 .contactContainer p {
     color: #ffffff;
     text-align: center;
+    font-size: 18px;
+}
+.contactContainer .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.icon {
+    -webkit-transition: padding 20s;
+    transform: rotate(0deg);
+    transition: transform 700ms;
+}
+.icon:hover {
+    transform: rotate(720deg);
 }

@@ -27,12 +27,6 @@
 .project2 p {
     text-align: right;
 }
-.project img,
-.project2 img {
-    height: 100%;
-    max-height: 200px;
-    width: auto;
-}
 .projectBody {
     display: flex;
     flex-direction: column;
@@ -49,4 +43,97 @@
     width: 700px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+}
+.project .olIcon {
+    height: 200px;
+    width: 200px;
+    background-image: url('../img/ol_icon.png');
+    background-size: cover;
+    box-shadow: 2px 2px 5px #505050;
+}
+.project2 .escIcon {
+    height: 200px;
+    width: 200px;
+    background-image: url('../img/erikstacycodes_icon.png');
+    background-size: cover;
+    box-shadow: 2px 2px 5px #505050;
+}
+.project .olIcon:hover {
+    background-image: url('../img/ol_icon_reverse.png');
+}
+.project2 .escIcon:hover {
+    background-image: url('../img/erikstacycodes_icon_reverse.png');
+}
+
+
+
+
+@media (max-width: 1080px) and (min-width: 801px) {
+    .portfolioContainer {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project,
+    .project2 {
+        width: 95%;
+    }
+    .projectBody {
+        width: 70%;
+        display: flex;
+    }
+    .projectBody .project {
+        align-items: flex-start;
+    }
+    .projectBody .project2 {
+        align-items: flex-end;
+    }
+    .projectBody h3 {
+        width: 95%;
+    }
+    .projectBody p {
+        width: 95%;
+    }
+}
+@media (max-width: 800px) {
+    .portfolioContainer {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project,
+    .project2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .projectBody {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .projectBody p {
+        width: 95%;
+        text-align: center;
+        margin-top: 0;
+    }
+    .projectBody h3 {
+        width: 95%;
+        text-align: center;
+    }
+    .escIcon {
+        order: 1;
+    }
+    .project2 .projectBody {
+        order: 2;
+    }
+    .project2 {
+        margin-top: 30px;
+    }
 }

@@ -30,6 +30,7 @@ class Contact extends Component {
                                         color: '#d8de20',
                                         marginRight: '20px'
                                     }}
+                                className="icon"
                                 />
                         </a>
                         <a href="https://www.linkedin.com/in/erik-stacy-37a8b3181">
@@ -40,6 +41,7 @@ class Contact extends Component {
                                         color: '#d8de20',
                                         marginRight: '20px'
                                     }}
+                                className="icon"
                                 />
                         </a>
                         <a href="https://www.instagram.com/erik_stacy/">
@@ -50,6 +52,7 @@ class Contact extends Component {
                                         color: '#d8de20',
                                         marginRight: '20px'
                                     }}
+                                className="icon"
                                 />
                         </a>
                         <a href="https://twitter.com/stacy_erik">
@@ -59,6 +62,7 @@ class Contact extends Component {
                                 style={{
                                         color: '#d8de20',
                                     }}
+                                className="icon"
                                 />
                         </a>
                     </div>

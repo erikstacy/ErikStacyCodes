@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../css/Portfolio.css';
-import OLIcon from '../img/ol_icon.png';
-import ESCIcon from '../img/erikstacycodes_icon.png';
 import Fade from 'react-reveal/Fade';
 
 class Portfolio extends Component {
@@ -15,7 +13,7 @@ class Portfolio extends Component {
 
                 <Fade left duration="2000">
                     <div className="project">
-                        <img src={OLIcon}/>
+                        <div className="olIcon"></div>
                         <div className="projectBody">
                             <h3>Organized Life</h3>
                             <p>
@@ -42,7 +40,7 @@ class Portfolio extends Component {
                                 was made in April 2019.
                             </p>
                         </div>
-                        <img src={ESCIcon}/>
+                        <div className="escIcon"></div>
                     </div>
                 </Fade>
                 </div>

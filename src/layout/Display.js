@@ -6,7 +6,7 @@ class Display extends Component {
     render() {
         return(
             <div className="displaySection">
-            <Fade clear duration="2000">
+            <Fade clear delay="600" duration="2000" >
                 <div className="displayContainer">
                     <h1>Erik Stacy</h1>
                     <p className="subheading">

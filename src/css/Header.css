@@ -85,10 +85,10 @@
     }
     .bm-burger-button {
         position: fixed;
-        width: 25px;
-        height: 25px;
-        left: 27.5px;
-        top: 27.5px;
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        top: 30px;
         pointer-events: all;
     }
     .bm-burger-bars {

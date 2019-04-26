@@ -6,11 +6,11 @@
     background: #232323;
 }
 .portfolioContainer {
-    width: 960px;
+    width: 1200px;
 }
 .portfolioContainer h2 {
     color: #d8de20;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Lato', sans-serif;
 }
 .project,
@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .project h3,
 .project p{
@@ -35,25 +36,25 @@
 }
 .projectBody h3 {
     color: #d8de20;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Lato', sans-serif;
 }
 .projectBody p {
     color: #ffffff;
-    width: 700px;
-    font-size: 20px;
+    width: 900px;
+    font-size: 25px;
     font-family: 'Lato', sans-serif;
 }
 .project .olIcon {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-image: url('../img/ol_icon.png');
     background-size: cover;
     box-shadow: 2px 2px 5px #505050;
 }
 .project2 .escIcon {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-image: url('../img/erikstacycodes_icon.png');
     background-size: cover;
     box-shadow: 2px 2px 5px #505050;

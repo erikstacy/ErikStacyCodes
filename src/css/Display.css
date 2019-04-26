@@ -10,20 +10,20 @@
 }
 .displaySection h1 {
     color: #d8de20;
-    font-size: 60px;
+    font-size: 70px;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 .displaySection .subheading {
     color: #d8de20a6;
-    font-size: 55px;
+    font-size: 60px;
     margin: 0;
     margin-bottom: 30px;
     font-family: 'Lato', sans-serif;
 }
 .displaySection .description {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
     width: 600px;
     font-family: 'Lato', sans-serif;

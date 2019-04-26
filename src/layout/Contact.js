@@ -18,7 +18,8 @@ class Contact extends Component {
                     <h2>Contact Me</h2>
                     <p>
                         Phone Number: 847-533-3202
-                        <br></br>
+                    </p>
+                    <p>
                         Email: erikstacy95@gmail.com
                     </p>
                     <div className="iconContainer">
